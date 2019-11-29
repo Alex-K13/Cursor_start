@@ -12,10 +12,10 @@ public class MathFunction {
         d = a / c;
         s = a + c;
         v = k - h;
-        System.out.println("multiplication = "+b);
-        System.out.println("division = "+d);
-        System.out.println("sum = " +s);
-        System.out.println("subtraction = " +v);
+        System.out.println("multiplication = " + b);
+        System.out.println("division = " + d);
+        System.out.println("sum = " + s);
+        System.out.println("subtraction = " + v);
 
     }
 }
