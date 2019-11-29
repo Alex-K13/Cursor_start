@@ -8,10 +8,12 @@ public class MathFunction {
         double d, s, v;
         long b;
         float c = 2.4f;
+
         b = (long) (a * c);
         d = a / c;
         s = a + c;
-        v = k -h;
+        v = k - h;
+
         System.out.println("multiplication = " + b);
         System.out.println("division = " + d);
         System.out.println("sum = " + s);
