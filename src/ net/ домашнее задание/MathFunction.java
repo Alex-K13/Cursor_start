@@ -11,7 +11,7 @@ public class MathFunction {
         b = (long) (a * c);
         d = a / c;
         s = a + c;
-        v = k - h;
+        v = k -h;
         System.out.println("multiplication = " + b);
         System.out.println("division = " + d);
         System.out.println("sum = " + s);
