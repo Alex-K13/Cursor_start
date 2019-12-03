@@ -3,5 +3,6 @@ Array is data structure of fixed length and the size needs to be defined during 
 String [] names=new String[100];
 
 This is because all the elements are stored in contiguous memory locations and so It needs to know how much memory needs to be allocated based on size.
+If the array were to be resized later on, that other information would have to be moved somewhere else in order for the array to get bigger. That's a lot of shuffling that we don't want to deal with, so computer architects disallow array resizing to make things simpler.
 
-One indirect way to avoid declaration of size is to use an ArrayList to add elements and then convert to array, as follows.
+One indirect way to avoid declaration of size is to use an ArrayList to add elements and then convert to array.
