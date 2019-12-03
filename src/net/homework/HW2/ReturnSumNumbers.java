@@ -7,7 +7,6 @@ public class ReturnSumNumbers {
         int[] array = {2, -4, 32, -63, 0, 34};
         int s = 0;
 
-
         for (int i : array) {
             if (i > 0) {
                 s += i;
