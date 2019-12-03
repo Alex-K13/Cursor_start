@@ -5,5 +5,4 @@
 *.war
 *.jar
 *.ear
-/out
-
+*out/
