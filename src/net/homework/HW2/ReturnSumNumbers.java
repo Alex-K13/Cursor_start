@@ -10,11 +10,8 @@ public class ReturnSumNumbers {
         for (int i : array) {
             if (i > 0) {
                 s += i;
-
             }
         }
         System.out.println(s);
-
-
     }
 }
