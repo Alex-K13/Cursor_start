@@ -4,11 +4,11 @@ public class ReturnAverageNumbers {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 4, 1};
-        int s = 0;
+        int sum = 0;
 
-        for (int i = 0; i < array.length; i++) {
-            s += array[i];
+        for (int i : array) {
+            sum += i;
         }
-        System.out.println(s / array.length);
+        System.out.println(sum / array.length);
     }
 }
