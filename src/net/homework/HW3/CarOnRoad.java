@@ -1,6 +1,6 @@
 package net.homework.HW3;
 
-public class CarIsDrive {
+public class CarOnRoad {
     public static void main(String[] args) {
         Car VW = new Car();
 

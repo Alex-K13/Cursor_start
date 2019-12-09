@@ -11,11 +11,12 @@ public class CountCreatedObjects {
 
         System.out.println(CountObjects.count);
     }
-    public static class CountObjects{
 
-            public static int count;
+    public static class CountObjects {
 
-        CountObjects(){
+        public static int count;
+
+        CountObjects() {
             count++;
         }
 
