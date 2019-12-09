@@ -1,28 +1,37 @@
 package net.homework.HW3;
 
 public class Car {
-    public static String engine;
+    private int speed;
 
-    public void startEngine() {
-        engine = "engineOn";
-        System.out.println("Engine On");
-    }
-
-    public void stopEngine() {
-        engine = "engineOff";
-        System.out.println("Engine Off");
-    }
-
-    void move() {
-        if (Car.engine.equals("engineOn")) {
-            System.out.println("Car move");
+    public void startEngine(boolean engine) {
+        if (engine) {
+            System.out.println("Engine On");
+            Car.move();
+            speed = 70;
         } else {
-            System.out.println("Car cant move");
+            System.out.println("Turn on the engine");
+            System.out.println("Car dont move");
         }
     }
 
-    public void cruise(int speed) {
-        System.out.println("Cruise speed is " + speed + "km/h");
+    public Car(int speed) {
+        this.speed = speed;
     }
 
+    public void stopEngine() {
+        System.out.println("Engine Off");
+    }
+
+    static void move() {
+        System.out.println("Car move");
+    }
+
+
+    public void cruise(int cruiseSpeed) {
+        if (speed > 60) {
+            System.out.println("Cruise speed is " + cruiseSpeed + " km/h");
+        } else {
+            System.out.println("Cruise control is off");
+        }
+    }
 }
