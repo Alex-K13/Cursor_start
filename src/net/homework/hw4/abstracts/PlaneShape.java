@@ -5,5 +5,4 @@ public abstract class PlaneShape extends Shape {
     protected double secondSide;
     protected double thirdSide;
     protected double halfPerimeter;
-
 }
